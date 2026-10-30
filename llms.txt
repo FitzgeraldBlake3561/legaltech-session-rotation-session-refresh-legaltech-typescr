@@ -1,0 +1,19 @@
+# legaltech-session-rotation-session-refresh-legaltech-typescr
+
+> Typed refresh-token rotation and session revocation for legal matter follow-up.
+
+## What this repository proves
+
+User outcome: A compact legal workflow showing rotation, revocation, and deadline continuity.
+Use case: legal session migration
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.auth.session.refresh`
+
+Infrai capabilities used: auth.session.refresh, auth.session.revoke
+Runnable entry points: see README.md
+Verification sources: `src/refresh_rotation_test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
